@@ -1,4 +1,4 @@
-import {server} from "../server.js"
+import {server} from "./server.js"
 const form = document.querySelector("#form")
 const input = document.querySelector("#url")
 const content = document.querySelector("#content")

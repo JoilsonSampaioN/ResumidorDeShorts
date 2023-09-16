@@ -1,10 +1,10 @@
 import cors from 'cors'
 import express from 'express'
 
-import {convert} from "../convert.js"
-import { download } from "../download.js"
-import { transcribe } from '../transcribe.js'
-import {summarize} from "../summarize.js"
+import {convert} from "./convert.js"
+import { download } from "./download.js"
+import { transcribe } from './transcribe.js'
+import {summarize} from "./summarize.js"
 
 const app = express()
 app.use(express.json())
